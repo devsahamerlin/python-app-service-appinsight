@@ -204,7 +204,6 @@ az webapp ssh \
   --resource-group myResourceGroup
 ```
 
-
 ## Security Best Practices
 
 1. **Environment Variables**: Store sensitive data in App Settings, not in code
@@ -224,4 +223,8 @@ az webapp ssh \
 1. **Add a database** (Azure SQL Database, CosmosDB, or PostgreSQL)
 2. **Set up CI/CD pipelines** with GitHub Actions or Azure DevOps
 
+<<<<<<< HEAD
 Your FastAPI application is now running on Azure App Service with logging and monitoring through Application Insights!
+=======
+Your FastAPI application is now running on Azure App Service with comprehensive logging and monitoring through Application Insights!
+>>>>>>> 4c9e461 (first commit)

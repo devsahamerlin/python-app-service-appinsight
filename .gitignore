@@ -37,3 +37,6 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .DS_Store
+=======
+.DS_Store
+>>>>>>> 4c9e461 (first commit)
