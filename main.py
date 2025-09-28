@@ -185,10 +185,11 @@ async def read_root():
     logger.info("Root endpoint accessed")
 
     return {
-        "message": "Welcome to FastAPI on Azure App Service!",
+        "message": "Welcome to FastAPI on Azure App Service Demo !",
         "timestamp": datetime.utcnow().isoformat(),
         "docs": "/docs",
-        "health": "/health"
+        "health": "/health",
+        "error": "/error"
     }
 
 
